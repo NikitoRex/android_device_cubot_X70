@@ -85,7 +85,7 @@ jobs:
       uses: webfactory/ssh-agent@v0.5.4
       with:
           ssh-private-key: |
-              ${{ secrets.SSH_PRIVATE_KEY }}
+              ${{ b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACBPOoQeXFPQ8D6XTGudqQ1Vih2mql1wUXXfNninSkaSZgAAAJgn52+IJ+dviAAAAAtzc2gtZWQyNTUxOQAAACBPOoQeXFPQ8D6XTGudqQ1Vih2mql1wUXXfNninSkaSZgAAAEC68A5JM/ABcswrTd7UOyRzkIMSON0o8HM4WIe4wZKKXU86hB5cU9DwPpdMa52pDVWKHaaqXXBRdd82eKdKRpJmAAAAEXUwX2EyMjdAbG9jYWxob3N0AQIDBA== }}
 
     - name: Install repo
       run: |
